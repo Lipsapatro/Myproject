@@ -1,6 +1,6 @@
-x = input("Entaer a no.")
-y = input("Enter another no.")
-opt = input("Operation Details: ")
+x = int(input("Entaer a no."))
+y = int(input("Enter another no."))
+opt = int(input("Operation Details: "))
 if(opt == 1):
  print(f"{x+y}")
 elif(opt == 2):
