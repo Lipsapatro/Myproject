@@ -1,0 +1,13 @@
+x = input("Entaer a no.")
+y = input("Enter another no.")
+opt = input("Operation Details: ")
+if(opt == 1):
+ print(f"{x+y}")
+elif(opt == 2):
+ print(f"{x-y}")
+elif(opt == 3):
+ print(f"{x*y}")
+elif(opt == 4):
+ print(f"{x/y}")
+else:
+ print(Invalid OP)
